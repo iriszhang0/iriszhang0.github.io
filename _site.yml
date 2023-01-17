@@ -1,0 +1,15 @@
+name: "Iris-website"
+output_dir: "."
+navbar:
+  title: "Iris Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Project"
+      href: project.html
+    - text: "Course Work"
+      href: course.html
+    - text: "Contact"
+      href: contact.html
