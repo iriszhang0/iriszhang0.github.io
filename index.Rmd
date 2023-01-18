@@ -1,10 +1,12 @@
 ---
-title: "Hi, I'm Jihan (Iris) Zhang"
+title: "Jihan (Iris) Zhang"
 ---
 
-I am a second-year data science master student at the University of Pennsylvania. I am also a research assistant in the [Tan Lab] (http://tanlab4generegulation.org/) with Prof. Kai Tan at the Children Hospital of Philadelphia. In addition, I am currently working on a marketing project with Prof. Raghuram Iyengar and Prof. Young-Hoon Park. 
+<p style="font-family: times, serif; font-size:20pt>
+I am a second-year data science master student at the University of Pennsylvania. I am also a research assistant in the [Tan Lab](http://tanlab4generegulation.org/) with _Prof. Kai Tan_ at the Children Hospital of Philadelphia. In addition, I am currently working on a marketing project with _Prof. Raghuram Iyengar_ and _Prof. Young-Hoon Park_. 
 
 My research focus lies in the domain of machine learning and data science. In particular, I am interested in implementing and developing neural networks to address biomedical and practical problems.   
 
-Before joining University of Pennsylvania, I complete my Bachelor of Science degree in applied mathematics at Case Western Reserve University under the supervision of Prof. Mark Meckes and Prof. Daniela Calvetti.
+Before joining University of Pennsylvania, I complete my Bachelor of Science degree in applied mathematics at Case Western Reserve University under the supervision of _Prof. Mark Meckes_ and _Prof. Daniela Calvetti_.
+</p>
 
