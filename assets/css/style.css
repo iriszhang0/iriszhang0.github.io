@@ -1150,20 +1150,7 @@ form .button-area {
 }
 /* scroll top ends */
 
-/* teaching section */
-.teaching {
-  background: #e5ecfb;
-  min-height: 80vh;
-}
-
-.teaching .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
+/* teaching section starts*/
 .teaching .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #012970;
@@ -1178,7 +1165,7 @@ form .button-area {
   text-align: left;
 }
 
-section.teaching .box-container .box .content h4 {
+.teaching .box-container .box .content h4 {
   font-size: 2rem;
   color: rgb(188, 19, 217);
   text-align: left;
@@ -1186,3 +1173,17 @@ section.teaching .box-container .box .content h4 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
+
+.teaching {
+  background: #e5ecfb;
+  min-height: 80vh;
+}
+
+.teaching .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* teaching section ends*/
