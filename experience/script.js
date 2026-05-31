@@ -63,13 +63,13 @@ document.onkeydown = function(e) {
 }
 
 document.addEventListener('visibilitychange',
-function(){
-    if(document.visibilityState === "visible"){
-        document.title = "Activities | Website Iris Zhang";
-        $("#favicon").attr("href","/assets/images/favicon.png");
-    }
-    else {
-        document.title = "Come Back To Website";
-        $("#favicon").attr("href","/assets/images/favhand.png");
-    }
-});
+    function () {
+        if (document.visibilityState === "visible") {
+            document.title = "Website | Iris Zhang";
+            $("#favicon").attr("href", "assets/images/favicon.png");
+        }
+        else {
+            document.title = "Come Back To Website";
+            $("#favicon").attr("href", "assets/images/favhand.png");
+        }
+    });
