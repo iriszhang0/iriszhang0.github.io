@@ -5,7 +5,6 @@
     "image": "faster",
     "category": "tlmtl",
     "links": {
-      "view": "#",
       "code": "https://github.com/iriszhang0/FASTER"
     }
   },
@@ -14,11 +13,7 @@
     "name": "(Ongoing) Grouped Spectral",
     "desc": "Flexible grouped representation multi-task learning framework using Spectral method",
     "image": "groupedspectral",
-    "category": "tlmtl",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
+    "category": "tlmtl"
   },
 
 
@@ -26,11 +21,7 @@
     "name": "(Under Review) MTLSBM",
     "desc": "Multi-task community detection in heterogeneous multi-layer networks",
     "image": "mtlsbm",
-    "category": "network",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
+    "category": "network"
   },
 
   {
@@ -39,8 +30,7 @@
     "image": "flowcytometry",
     "category": "combio",
     "links": {
-      "view": "https://www.sciencedirect.com/science/article/pii/S0002944026000581",
-      "code": "#"
+      "view": "https://www.sciencedirect.com/science/article/pii/S0002944026000581"
     }
   },
 
@@ -50,8 +40,7 @@
     "image": "eva",
     "category": "combio",
     "links": {
-      "view": "https://publichealth.nyu.edu/events-news/news/2024/03/05/enar-2024-data-fest-biostatistics-professional-development-series",
-      "code": "#"
+      "view": "https://publichealth.nyu.edu/events-news/news/2024/03/05/enar-2024-data-fest-biostatistics-professional-development-series"
     }
   }, 
 
@@ -61,8 +50,7 @@
     "image": "cell",
     "category": "combio",
     "links": {
-      "view": "https://www.cell.com/cell/fulltext/S0092-8674(24)00408-2",
-      "code": "#"
+      "view": "https://www.cell.com/cell/fulltext/S0092-8674(24)00408-2"
     }
   }
 
