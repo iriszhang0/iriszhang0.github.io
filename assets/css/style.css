@@ -1151,26 +1151,61 @@ form .button-area {
 /* scroll top ends */
 
 /* teaching section starts*/
-/* teaching section */
+/* teaching section = SAME AS education */
 .teaching {
   background: #e5ecfb;
   min-height: 80vh;
 }
 
-/* container layout (match education style consistency) */
 .teaching .box-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-/* box content alignment consistency */
 .teaching .box-container .box {
+  display: flex;
+  flex-direction: row;
   width: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+  overflow: hidden;
+  transition: 0.3s;
+  background: rgb(252, 252, 252);
 }
 
-/* SECTION TITLE (Instructor / TA) */
+.teaching .box-container .box:hover {
+  transform: scale(1.03);
+  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+}
+
+/* image (same as education) */
+.teaching .box-container .box .image {
+  flex: 1 1 20rem;
+  width: 100%;
+}
+
+.teaching .box-container .box img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* content */
+.teaching .box-container .box .content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex: 1 1 70rem;
+}
+
+/* title */
 .teaching .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #012970;
@@ -1180,21 +1215,20 @@ form .button-area {
   margin-left: 1rem;
 }
 
-/* SEMESTER LABEL — MAKE BIGGER */
+/* semester */
 .teaching .box-container .box .content h4 {
-  font-size: 2.3rem;   /* ⬅️ increase here */
+  font-size: 2rem;
   color: rgb(188, 19, 217);
-  font-weight: 800;
-  margin: 1rem;
   text-align: left;
+  margin: 1rem;
   font-family: "Nunito", sans-serif;
+  font-weight: 700;
 }
 
-/* COURSE TEXT — MATCH EDUCATION p */
+/* course text */
 .teaching .box-container .box .content p {
-  font-size: 1.7rem;   /* ⬅️ increase here */
+  font-size: 1.5rem;
   margin-left: 1rem;
   text-align: left;
-  font-family: "Nunito", sans-serif;
 }
 /* teaching section ends*/
