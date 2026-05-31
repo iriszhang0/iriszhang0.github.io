@@ -1151,100 +1151,15 @@ form .button-area {
 /* scroll top ends */
 
 /* teaching section */
-
-.teaching{
+.teaching {
   background: #e5ecfb;
-  min-height: auto;
+  min-height: 80vh;
 }
 
-.teaching .content{
+.teaching .box-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  margin-top: 3rem;
-}
-
-.teaching .box{
-  width: 80%;
-  background: #fff;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0,0,0,0.2);
-  margin-bottom: 2.5rem;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.teaching .box:hover{
-  transform: scale(1.02);
-  box-shadow: 1rem 0.5rem 1.2rem rgba(0,0,0,0.3);
-}
-
-.teaching .box h3{
-  background: #012970;
-  color: white;
-  font-size: 2.6rem;
-  font-weight: 600;
-  padding: 1.5rem 2rem;
-}
-
-.teaching-item{
-  padding: 2rem;
-  border-bottom: 1px solid #eee;
-}
-
-.teaching-item:last-child{
-  border-bottom: none;
-}
-
-.teaching-item h4{
-  font-size: 2rem;
-  color: #2506ad;
-  font-weight: 700;
-  margin-bottom: 0.8rem;
-}
-
-.teaching-item p{
-  font-size: 1.6rem;
-  color: #222;
-  font-family: "Nunito", sans-serif;
-  text-transform: none;
-  margin: 0.4rem 0;
-}
-
-.teaching-item em{
-  color: #666;
-}
-
-.teaching-item span{
-  display: inline-block;
-  margin-top: 0.8rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: rgb(34,109,0);
-}
-
-/* mobile */
-
-@media screen and (max-width: 600px){
-
-  .teaching .box{
-    width: 100%;
-  }
-
-  .teaching .box h3{
-    font-size: 2.2rem;
-  }
-
-  .teaching-item{
-    padding: 1.5rem;
-  }
-
-  .teaching-item h4{
-    font-size: 1.8rem;
-  }
-
-  .teaching-item p{
-    font-size: 1.4rem;
-  }
-
+  flex-direction: column;
 }
