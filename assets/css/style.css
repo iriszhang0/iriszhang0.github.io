@@ -1151,6 +1151,26 @@ form .button-area {
 /* scroll top ends */
 
 /* teaching section starts*/
+/* teaching section */
+.teaching {
+  background: #e5ecfb;
+  min-height: 80vh;
+}
+
+/* container layout (match education style consistency) */
+.teaching .box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* box content alignment consistency */
+.teaching .box-container .box {
+  width: 80%;
+}
+
+/* SECTION TITLE (Instructor / TA) */
 .teaching .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #012970;
@@ -1159,31 +1179,22 @@ form .button-area {
   text-align: left;
   margin-left: 1rem;
 }
+
+/* SEMESTER LABEL — MAKE BIGGER */
+.teaching .box-container .box .content h4 {
+  font-size: 2.3rem;   /* ⬅️ increase here */
+  color: rgb(188, 19, 217);
+  font-weight: 800;
+  margin: 1rem;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+}
+
+/* COURSE TEXT — MATCH EDUCATION p */
 .teaching .box-container .box .content p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;   /* ⬅️ increase here */
   margin-left: 1rem;
   text-align: left;
-}
-
-.teaching .box-container .box .content h4 {
-  font-size: 2rem;
-  color: rgb(188, 19, 217);
-  text-align: left;
-  margin: 1rem;
   font-family: "Nunito", sans-serif;
-  font-weight: 700;
-}
-
-.teaching {
-  background: #e5ecfb;
-  min-height: 80vh;
-}
-
-.teaching .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 /* teaching section ends*/
