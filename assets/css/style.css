@@ -458,80 +458,6 @@ header .navbar ul li a:hover {
 /* about media queries ends*/
 /* about section ends */
 
-/* skills section starts */
-.skills {
-  min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
-}
-.skills h2 {
-  color: #fff;
-}
-.skills .heading span {
-  color: rgb(255, 230, 0);
-}
-.skills .container {
-  background: rgba(0, 0, 22, 0.4);
-  color: #fff;
-  border-radius: 1rem;
-  padding: 2rem;
-  width: 90%;
-  margin: auto;
-  margin-top: 2rem;
-}
-.skills .container .row {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  flex-wrap: wrap;
-  gap: 1.8rem;
-}
-.skills .container .bar {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
-  transition: 0.2s;
-}
-.skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
-}
-.skills .container .bar .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-.skills .container .bar .info i {
-  font-size: 4rem;
-}
-.skills .container .bar .info span {
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Poppins";
-  margin-left: 0.5rem;
-}
-/* skills media queries starts*/
-@media screen and (max-width: 600px) {
-  .skills .container {
-    padding: 0;
-    margin: 0;
-  }
-  .skills .container .row {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 1rem;
-    padding: 2rem 0.2rem 2rem 0.2rem;
-    gap: 1rem;
-  }
-  .skills .container {
-    margin-top: 5px;
-    width: 100%;
-  }
-}
-/* skills media queries ends*/
-/* skills section ends */
-
 /* education section starts */
 .education {
   background: #e5ecfb;
@@ -639,25 +565,25 @@ header .navbar ul li a:hover {
 /* education media queries ends*/
 /* education section ends */
 
-/* work section starts */
-.work {
+/* research section starts */
+.research {
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
 }
-.work h2 {
+.research h2 {
   color: #fff;
   padding: 1rem;
 }
-.work .heading span {
+.research .heading span {
   color: rgb(255, 230, 0);
 }
-.work .box-container {
+.research .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
 }
-.work .box-container .box {
+.research .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -665,12 +591,12 @@ header .navbar ul li a:hover {
   overflow: hidden;
   height: 30rem;
 }
-.work .box-container .box img {
+.research .box-container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.work .box-container .box .content {
+.research .box-container .box .content {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -680,7 +606,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-direction: column;
 }
-.work .box-container .box .content .tag {
+.research .box-container .box .content .tag {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -690,28 +616,28 @@ header .navbar ul li a:hover {
   padding-left: 1rem;
   background: #ffd900;
 }
-.work .box-container .box .content .tag h3 {
+.research .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
-.work .box-container .box:hover .content {
+.research .box-container .box:hover .content {
   top: 25%;
 }
-.work .desc {
+.research .desc {
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.work .desc p {
+.research .desc p {
   font-size: 1.5rem;
 }
-.work .desc .btns {
+.research .desc .btns {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
-.work .desc .btns .btn {
+.research .desc .btns .btn {
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -721,14 +647,14 @@ header .navbar ul li a:hover {
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-.work .desc .btns .btn:hover {
+.research .desc .btns .btn:hover {
   background: #310ae0f5;
 }
-.work .viewall {
+.research .viewall {
   display: flex;
   justify-content: center;
 }
-.work .viewall .btn {
+.research .viewall .btn {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
@@ -740,32 +666,32 @@ header .navbar ul li a:hover {
   box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
   text-align: center;
 }
-.work .viewall .btn span {
+.research .viewall .btn span {
   font-weight: 600;
   font-size: 1.7rem;
   font-family: "Nunito", sans-serif;
 }
-.work .viewall .btn i {
+.research .viewall .btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.work .viewall .btn:hover {
+.research .viewall .btn:hover {
   background: #fff;
   color: #000;
 }
-.work .viewall .btn:hover i {
+.research .viewall .btn:hover i {
   transform: translateX(5px);
 }
-/* work section ends */
+/* research section ends */
 
-/* experience section starts */
-.experience .timeline {
+/* activities section starts */
+.activities .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
-.experience .timeline::after {
+.activities .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
@@ -776,14 +702,14 @@ header .navbar ul li a:hover {
   margin-left: -3px;
   z-index: -2;
 }
-.experience .container {
+.activities .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.experience .container::after {
+.activities .container::after {
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -800,14 +726,14 @@ header .navbar ul li a:hover {
   color: #02094b;
   font-family: "Font Awesome\ 5 Free";
 }
-.experience .left {
+.activities .left {
   left: 0;
 }
-.experience .right {
+.activities .right {
   left: 50%;
 }
 /* arrows pointing right */
-.experience .left::before {
+.activities .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -820,7 +746,7 @@ header .navbar ul li a:hover {
   border-color: transparent transparent transparent #f68c09;
 }
 /* arrows pointing left  */
-.experience .right::before {
+.activities .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -832,28 +758,28 @@ header .navbar ul li a:hover {
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
 }
-.experience .right::after {
+.activities .right::after {
   left: -16px;
 }
-.experience .content {
+.activities .content {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
 }
-.experience .content .tag {
+.activities .content .tag {
   font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
-.experience .content .desc {
+.activities .content .desc {
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
-.experience .content .desc h3 {
+.activities .content .desc h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.experience .content .desc p {
+.activities .content .desc p {
   font-size: 1.2rem;
 }
 /* view all button */
