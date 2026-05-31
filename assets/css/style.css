@@ -817,44 +817,44 @@ header .navbar ul li a:hover {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .experience {
+  .activities {
     min-height: 80vh;
   }
-  .experience .timeline {
+  .activities .timeline {
     margin-top: 2rem;
   }
-  .experience .timeline::after {
+  .activities .timeline::after {
     left: 31px;
   }
-  .experience .container {
+  .activities .container {
     width: 100%;
     padding-left: 8rem;
     padding-right: 2rem;
   }
-  .experience .container::after {
+  .activities .container::after {
     font-size: 2.2rem;
   }
-  .experience .container::before {
+  .activities .container::before {
     left: 61px;
     border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
     border-color: transparent #f68c09 transparent transparent;
   }
-  .experience .left::after {
+  .activities .left::after {
     left: 15px;
   }
-  .experience .right::after {
+  .activities .right::after {
     left: 15px;
   }
-  .experience .right {
+  .activities .right {
     left: 0%;
   }
   .morebtn {
     margin-top: 3rem;
   }
 }
-/* experience media queries ends */
-/* experience section ends */
+/* activities media queries ends */
+/* activities section ends */
 
 /* contact section starts */
 .contact {
@@ -1150,44 +1150,98 @@ form .button-area {
 }
 /* scroll top ends */
 
+/* teaching section starts */
 
-.teaching .content{
-  max-width: 900px;
-  margin: 0 auto;
+.teaching{
+  background: #ffffff;
+  min-height: auto;
+}
+
+.teaching .box-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
 }
 
 .teaching .box{
+  width: 80%;
   background: #fff;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0,0,0,0.15);
+  overflow: hidden;
+  transition: 0.3s;
 }
 
-.teaching .box h3{
-  color: #002D72; /* NYU-style dark blue */
-  margin-bottom: 1rem;
+.teaching .box:hover{
+  transform: translateY(-5px);
+  box-shadow: 0.5rem 1rem 1.5rem rgba(0,0,0,0.25);
+}
+
+.teaching .box .content{
+  padding: 2.5rem;
+}
+
+.teaching .box .content h3{
+  font-size: 2.4rem;
+  color: #012970;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e5ecfb;
+  padding-bottom: 1rem;
 }
 
 .teaching-item{
-  margin-bottom: 1.2rem;
-  padding-left: 1rem;
-  border-left: 3px solid #57068c; /* NYU purple */
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.teaching-item:last-child{
+  border-bottom: none;
 }
 
 .teaching-item h4{
-  margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.8rem;
+  color: #2506ad;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
 }
 
 .teaching-item p{
-  margin: 0.2rem 0;
-  color: #666;
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0.3rem 0;
+  text-transform: none;
 }
 
 .teaching-item span{
-  font-size: 0.9rem;
-  color: #888;
+  display: inline-block;
+  background: #2506ad;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
+/* mobile */
+@media screen and (max-width: 600px){
 
+  .teaching .box{
+    width: 100%;
+  }
+
+  .teaching .box .content{
+    padding: 1.8rem;
+  }
+
+  .teaching-item h4{
+    font-size: 1.6rem;
+  }
+
+  .teaching-item p{
+    font-size: 1.3rem;
+  }
+}
+
+/* teaching section ends */
