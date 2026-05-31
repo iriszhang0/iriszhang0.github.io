@@ -1178,7 +1178,7 @@ form .button-area {
   text-align: left;
 }
 
-.teaching .box-container .box .content h4 {
+section.teaching .box-container .box .content h4 {
   font-size: 2rem;
   color: rgb(188, 19, 217);
   text-align: left;
