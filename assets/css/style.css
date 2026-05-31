@@ -776,11 +776,11 @@ header .navbar ul li a:hover {
   padding-bottom: 1rem;
 }
 .activities .content .desc h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 .activities .content .desc p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 /* view all button */
 .morebtn {
