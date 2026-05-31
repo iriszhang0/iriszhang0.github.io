@@ -80,7 +80,7 @@ function showProjects(projects) {
     // });
 
     // /* SCROLL PROJECTS */
-    // srtop.reveal('.work .box', { interval: 200 });
+    // srtop.reveal('.research .box', { interval: 200 });
 
     // isotope filter products
     var $grid = $('.box-container').isotope({
