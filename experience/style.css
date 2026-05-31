@@ -155,21 +155,21 @@ header .navbar ul li a:hover{
 }
 /* hamburger icon ends */
 
-/* experience section starts */
-.experience {
+/* activities section starts */
+.activities {
   margin-top: 5rem;
 }
-.experience .quote {
+.activities .quote {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
 }
-.experience .timeline {
+.activities .timeline {
   position: relative;
   max-width: 1200px;
   margin: 2rem auto;
 }
-.experience .timeline::after {
+.activities .timeline::after {
   content: '';
   position: absolute;
   width: 6px;
@@ -180,14 +180,14 @@ header .navbar ul li a:hover{
   margin-left: -3px;
   z-index: -2;
 }
-.experience .container {
+.activities .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.experience .container::after {    
+.activities .container::after {    
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -204,14 +204,14 @@ header .navbar ul li a:hover{
   color:#02094b;
   font-family: 'Font Awesome\ 5 Free';
 }
-.experience .left {
+.activities .left {
   left: 0;
 }
-.experience .right {
+.activities .right {
   left: 50%;
 }
 /* arrows pointing right */
-.experience .left::before {
+.activities .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -224,7 +224,7 @@ header .navbar ul li a:hover{
   border-color: transparent transparent transparent #f68c09;
 }
 /* arrows pointing left  */
-.experience .right::before {
+.activities .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -236,28 +236,28 @@ header .navbar ul li a:hover{
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
 }
-.experience .right::after {
+.activities .right::after {
   left: -16px;
 }
-.experience .content {
+.activities .content {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
 }
-.experience .content .tag{
+.activities .content .tag{
   font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
-.experience .content .desc{
+.activities .content .desc{
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
-.experience .content .desc h3{
+.activities .content .desc h3{
   font-size: 1.5rem;
   font-weight: 600;
 }
-.experience .content .desc p{
+.activities .content .desc p{
   font-size: 1.2rem;
 }
 /* view all button */
@@ -296,35 +296,35 @@ header .navbar ul li a:hover{
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .experience .timeline::after {
+  .activities .timeline::after {
   left: 31px;
   }
-  .experience .container {
+  .activities .container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
-  .experience .container::before {
+  .activities .container::before {
   left: 60px;
   border: medium solid #f68c09;
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
   }
-  .experience .left::after {
+  .activities .left::after {
     left: 15px;
   }
-  .experience .right::after {
+  .activities .right::after {
     left: 15px;
   }
-  .experience .right {
+  .activities .right {
   left: 0%;
   }
-  .experience .container::after {
+  .activities .container::after {
     font-size: 2.2rem;;
   }
 }
-/* experience media queries ends */
-/* experience section ends */
+/* activities media queries ends */
+/* activities section ends */
 
 
 /* footer section starts */

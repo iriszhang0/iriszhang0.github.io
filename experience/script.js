@@ -26,8 +26,8 @@ const srtop = ScrollReveal({
 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline',{delay: 400});
-srtop.reveal('.experience .timeline .container',{interval: 400}); 
+srtop.reveal('.activities .timeline',{delay: 400});
+srtop.reveal('.activities .timeline .container',{interval: 400}); 
 
 
 // Start of Tawk.to Live Chat
@@ -65,11 +65,11 @@ document.onkeydown = function(e) {
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio Jigar Sable";
+        document.title = "Activities | Website Iris Zhang";
         $("#favicon").attr("href","/assets/images/favicon.png");
     }
     else {
-        document.title = "Come Back To Portfolio";
+        document.title = "Come Back To Website";
         $("#favicon").attr("href","/assets/images/favhand.png");
     }
 });
